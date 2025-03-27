@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "内核链表与结构体", "内核链表与结构体.vcxproj", "{DCE8A2A7-34D0-427E-AA06-972682095A61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Debug|ARM64.Build.0 = Debug|ARM64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Debug|x64.ActiveCfg = Debug|x64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Debug|x64.Build.0 = Debug|x64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Debug|x64.Deploy.0 = Debug|x64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Release|ARM64.ActiveCfg = Release|ARM64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Release|ARM64.Build.0 = Release|ARM64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Release|ARM64.Deploy.0 = Release|ARM64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Release|x64.ActiveCfg = Release|x64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Release|x64.Build.0 = Release|x64
+		{DCE8A2A7-34D0-427E-AA06-972682095A61}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FEAA15D-2E23-4741-AE37-EEB8B3BDAD2D}
+	EndGlobalSection
+EndGlobal
