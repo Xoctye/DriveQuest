@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u81EA\u65CB\u9501\\\u81EA\u65CB\u9501\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05D8F089-EA73-6B62-AC0B-4C5F97942A9A}|\u81EA\u65CB\u9501.vcxproj|D:\\software\\VS2022\\CODING\\DriveQuest\\\u81EA\u65CB\u9501\\\u81EA\u65CB\u9501\\demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05D8F089-EA73-6B62-AC0B-4C5F97942A9A}|\u81EA\u65CB\u9501.vcxproj|solutionrelative:demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "demo.c",
+              "DocumentMoniker": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u81EA\u65CB\u9501\\\u81EA\u65CB\u9501\\demo.c",
+              "RelativeDocumentMoniker": "demo.c",
+              "ToolTip": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u81EA\u65CB\u9501\\\u81EA\u65CB\u9501\\demo.c",
+              "RelativeToolTip": "demo.c",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-28T02:12:20.425Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
