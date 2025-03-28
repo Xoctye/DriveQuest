@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u81EA\u65CB\u9501\\\u5185\u6838\u5B57\u7B26\u4E32\u8F6C\u6362\u65B9\u6CD5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9760C816-B93E-FB03-C1D9-BFA87BB22CEB}|\u5185\u6838\u5B57\u7B26\u4E32\u8F6C\u6362\u65B9\u6CD5.vcxproj|D:\\software\\VS2022\\CODING\\DriveQuest\\\u81EA\u65CB\u9501\\\u5185\u6838\u5B57\u7B26\u4E32\u8F6C\u6362\u65B9\u6CD5\\demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9760C816-B93E-FB03-C1D9-BFA87BB22CEB}|\u5185\u6838\u5B57\u7B26\u4E32\u8F6C\u6362\u65B9\u6CD5.vcxproj|solutionrelative:demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "demo.c",
+              "DocumentMoniker": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u81EA\u65CB\u9501\\\u5185\u6838\u5B57\u7B26\u4E32\u8F6C\u6362\u65B9\u6CD5\\demo.c",
+              "RelativeDocumentMoniker": "demo.c",
+              "ToolTip": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u81EA\u65CB\u9501\\\u5185\u6838\u5B57\u7B26\u4E32\u8F6C\u6362\u65B9\u6CD5\\demo.c",
+              "RelativeToolTip": "demo.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-28T02:43:21.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
