@@ -1,0 +1,4 @@
+RtlUnicodeStringToAnsiString
+RtlAnsiStringToUnicodeString
+RtlIntegerToUnicodeString
+RtlUnicodeStringToInteger
