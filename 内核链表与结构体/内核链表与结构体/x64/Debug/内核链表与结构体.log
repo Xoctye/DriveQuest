@@ -1,0 +1,15 @@
+﻿  Building '内核链表与结构体' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  demo.c
+D:\software\VS2022\CODING\DriveQuest\内核链表与结构体\内核链表与结构体\demo.c(64,41): warning C4057: 'function': 'PCSZ' differs in indirection to slightly different base types from 'UCHAR *'
+D:\software\VS2022\CODING\DriveQuest\内核链表与结构体\内核链表与结构体\demo.c(67,15): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+D:\software\VS2022\CODING\DriveQuest\内核链表与结构体\内核链表与结构体\demo.c(69,4): warning C4057: 'function': 'const char *' differs in indirection to slightly different base types from 'UCHAR *'
+D:\software\VS2022\CODING\DriveQuest\内核链表与结构体\内核链表与结构体\demo.c(70,18): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+D:\software\VS2022\CODING\DriveQuest\内核链表与结构体\内核链表与结构体\demo.c(65,26): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+D:\software\VS2022\CODING\DriveQuest\内核链表与结构体\内核链表与结构体\demo.c(91,30): warning C4100: 'driver': unreferenced formal parameter
+D:\software\VS2022\CODING\DriveQuest\内核链表与结构体\内核链表与结构体\demo.c(96,61): warning C4100: 'registryPath': unreferenced formal parameter
+  内核链表与结构体.vcxproj -> D:\software\VS2022\CODING\DriveQuest\内核链表与结构体\内核链表与结构体\x64\Debug\内核链表与结构体.sys
+  Done Adding Additional Store
+  Successfully signed: D:\software\VS2022\CODING\DriveQuest\\\x64\Debug\.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
