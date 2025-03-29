@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "通过PIPE管道与内核层通信", "通过PIPE管道与内核层通信.vcxproj", "{83EC2963-E80C-9E75-3EED-86BB0CA389EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Debug|ARM64.Build.0 = Debug|ARM64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Debug|x64.ActiveCfg = Debug|x64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Debug|x64.Build.0 = Debug|x64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Debug|x64.Deploy.0 = Debug|x64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Release|ARM64.ActiveCfg = Release|ARM64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Release|ARM64.Build.0 = Release|ARM64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Release|ARM64.Deploy.0 = Release|ARM64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Release|x64.ActiveCfg = Release|x64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Release|x64.Build.0 = Release|x64
+		{83EC2963-E80C-9E75-3EED-86BB0CA389EA}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {625D19C0-877D-4D1A-8BED-4863879C846E}
+	EndGlobalSection
+EndGlobal
