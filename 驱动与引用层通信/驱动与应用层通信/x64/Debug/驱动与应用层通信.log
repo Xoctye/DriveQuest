@@ -1,0 +1,7 @@
+﻿  Building '驱动与应用层通信' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  demo.c
+D:\software\VS2022\CODING\DriveQuest\驱动与引用层通信\驱动与应用层通信\demo.c(14,81): error C2220: the following warning is treated as an error
+D:\software\VS2022\CODING\DriveQuest\驱动与引用层通信\驱动与应用层通信\demo.c(14,81): warning C4133: 'function': incompatible types - from 'PDRIVER_OBJECT *' to 'PDEVICE_OBJECT *'
+D:\software\VS2022\CODING\DriveQuest\驱动与引用层通信\驱动与应用层通信\demo.c(22,40): warning C4100: 'pDevObj': unreferenced formal parameter
+D:\software\VS2022\CODING\DriveQuest\驱动与引用层通信\驱动与应用层通信\demo.c(29,39): warning C4100: 'pDevObj': unreferenced formal parameter
+D:\software\VS2022\CODING\DriveQuest\驱动与引用层通信\驱动与应用层通信\demo.c(46,62): warning C4100: 'RegistryPath': unreferenced formal parameter
