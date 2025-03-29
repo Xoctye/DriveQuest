@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceIoContro模板", "DeviceIoContro模板.vcxproj", "{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Debug|ARM64.Build.0 = Debug|ARM64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Debug|x64.ActiveCfg = Debug|x64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Debug|x64.Build.0 = Debug|x64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Debug|x64.Deploy.0 = Debug|x64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Release|ARM64.ActiveCfg = Release|ARM64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Release|ARM64.Build.0 = Release|ARM64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Release|ARM64.Deploy.0 = Release|ARM64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Release|x64.ActiveCfg = Release|x64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Release|x64.Build.0 = Release|x64
+		{D410A3FB-6EEC-C90B-27B1-2634DFD0202D}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96CE6512-012F-4366-913B-96702FC4D0C7}
+	EndGlobalSection
+EndGlobal
