@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "内核实现进程汇编与反汇编", "内核实现进程汇编与反汇编.vcxproj", "{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Debug|ARM64.Build.0 = Debug|ARM64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Debug|x64.ActiveCfg = Debug|x64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Debug|x64.Build.0 = Debug|x64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Debug|x64.Deploy.0 = Debug|x64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Release|ARM64.ActiveCfg = Release|ARM64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Release|ARM64.Build.0 = Release|ARM64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Release|ARM64.Deploy.0 = Release|ARM64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Release|x64.ActiveCfg = Release|x64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Release|x64.Build.0 = Release|x64
+		{4C3A52D6-B16B-86D7-E963-13DFD07FE7B2}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70B0F4A-ADC4-4688-9AE6-7F8D26247C15}
+	EndGlobalSection
+EndGlobal
