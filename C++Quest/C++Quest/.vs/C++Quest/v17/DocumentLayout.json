@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\software\\VS2022\\CODING\\DriveQuest\\C\u002B\u002BQuest\\C\u002B\u002BQuest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{39A21358-1382-4EAD-86B4-A2BF024E8E22}|C\u002B\u002BQuest.vcxproj|D:\\software\\VS2022\\CODING\\DriveQuest\\C\u002B\u002BQuest\\C\u002B\u002BQuest\\C\u002B\u002BQuest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{39A21358-1382-4EAD-86B4-A2BF024E8E22}|C\u002B\u002BQuest.vcxproj|solutionrelative:C\u002B\u002BQuest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "C\u002B\u002BQuest.cpp",
+              "DocumentMoniker": "D:\\software\\VS2022\\CODING\\DriveQuest\\C\u002B\u002BQuest\\C\u002B\u002BQuest\\C\u002B\u002BQuest.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002BQuest.cpp",
+              "ToolTip": "D:\\software\\VS2022\\CODING\\DriveQuest\\C\u002B\u002BQuest\\C\u002B\u002BQuest\\C\u002B\u002BQuest.cpp",
+              "RelativeToolTip": "C\u002B\u002BQuest.cpp",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T03:22:06.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

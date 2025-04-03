@@ -1,0 +1,3 @@
+﻿  C++Quest.cpp
+D:\software\VS2022\CODING\DriveQuest\C++Quest\C++Quest\C++Quest.cpp(142,6): warning C4101: 'bb': unreferenced local variable
+  C++Quest.vcxproj -> D:\software\VS2022\CODING\DriveQuest\C++Quest\C++Quest\x64\Debug\C++Quest.exe
