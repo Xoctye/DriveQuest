@@ -4,6 +4,8 @@
 #include<string>
 #include<stdexcept>
 #include<windows.h>
+#include<cstdio>
+#include<limits>
 using namespace std;
 
 //template <class T>
@@ -177,24 +179,88 @@ using namespace std;
 //	return 0;
 //}
 
+//int main(int argc, char* argv[])
+//{
+//	cout << LLONG_MAX << endl;	
+//	cout << LLONG_MIN << endl;
+//	cout << numeric_limits<long long>::max() << endl;
+//	cout << numeric_limits<long long>::min() << endl;
+//
+//}
+//#ifndef _SUDOKU_COMMON_H_
+//#define _SUDOKU_COMMON_H_
+//static const unsigned int UNSELECTED = 0;
+//enum class Difficulty :int
+//{
+//	EASY = 1,
+//NORMAL,
+//HARD
+//};
+//
+//enum class State :int
+//{
+//	INITED = 0,
+//ERASED,
+//};
+//
+//enum class KeyMode :int
+//{
+//	NORMAL=1,
+//	VIM
+//};
+//
+//struct KetMap
+//{
+//	const char ESC = 0X18;
+//	const char U = 0x75;
+//	char UP;
+//	char LEFT;
+//	char DOWN;
+//char RIGHT;
+//	const char ENTER = 0x0D;
+//};
+//
+//struct Normal :KeyMap
+//{
+//	Normal()
+//	{
+//		UP = 2;
+//
+//	}
+//};
+//
+//void CBlock::print()const
+//{
+//	auto number = *(_numbers[i]);
+//}
+//
+//void CBlock::push_back(point_value_t* point)
+//{
+//	asser
+//}
 
+#pragma comment(lib,"detours.lib")
 
+int main(int agrc,char *argv[])
+{
+	STARTUPINFOA si = { sizeof(si) };
+	PROCESS_INFORMATION pi;
+	cosnt char* exePath = "D:://Win32Processject.exe";
+		const char* dllPath = "D://hook.dll";
+		if (DetourCreateProcessWithDllA)
+		{
+			exePath,
+				NULL,NULL,NULL,TRUE,CREATE_DEFAULT_ERROR_MODE,
+				NULL,NULL,&si,&pi,dllPath,NULL
+		}
+}
 
+BOOL WINAPI MyCreateProcessA(LPCSTR lpApplicationName, LPSTR lpCommandLine)
+{
+	LPSECURITY_ATTRIBUTES lpProcessAttributes,LPSECURITY_ATTRIBUTES lpThreadAttributes,
+		BOOL bInHeritHandle,DWORD dwCreatetionFlags,LPVOID lpEnvironment,
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
