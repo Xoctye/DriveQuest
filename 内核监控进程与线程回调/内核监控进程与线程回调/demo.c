@@ -1,3 +1,137 @@
+#include<ntifs.h>
+NTKERNELAPI PCHAR PsGetProcessImageFileName(PEPROCESS Process);
+NTKERNELAPI NTSTATUS PsLookupProcessByProcessId(HANDLE ProcessId, PEPROCESS* Process);
+NTKERNELAPI NTSTATUS PsLookupThreadByThreadId(HANDLE ThreadId, PETHREAD* Thread);
+
+BOOLEAN BypassCheckSign(PDRIVER_OBJECT pDriverObject)
+{
+#ifdef _WIN64
+	typedef struct _KLDR_DATA_TABLE_ENTRY
+	{
+		LIST_ENTRY listEntry;
+		ULONG64 __Undefined1;
+		ULONG64 __Undefined2;
+		ULONG64 __Undefined3;
+		ULONG64 NonPagedDebugInfo;
+		ULONG64 DllBase;
+		ULONG64 EntryPoint;
+		ULONG SizeOfImage;
+		UNICODE_STRING path;
+		UNICODE_STRING name;
+		ULONG   Flags;
+		USHORT  LoadCount;
+		USHORT  __Undefined5;
+		ULONG64 __Undefined6;
+		ULONG   CheckSum;
+		ULONG   __padding1;
+		ULONG   TimeDateStamp;
+		ULONG   __padding2;
+	} KLDR_DATA_TABLE_ENTRY, * PKLDR_DATA_TABLE_ENTRY;
+#else
+	typedef struct _KLDR_DATA_TABLE_ENTRY
+	{
+		LIST_ENTRY listEntry;
+		ULONG unknown1;
+		ULONG unknown2;
+		ULONG unknown3;
+		ULONG unknown4;
+		ULONG unknown5;
+		ULONG unknown6;
+		ULONG unknown7;
+		UNICODE_STRING path;
+		UNICODE_STRING name;
+		ULONG   Flags;
+	} KLDR_DATA_TABLE_ENTRY, * PKLDR_DATA_TABLE_ENTRY;
+#endif
+
+	PKLDR_DATA_TABLE_ENTRY pLdrData = (PKLDR_DATA_TABLE_ENTRY)pDriverObject->DriverSection;
+	pLdrData->Flags = pLdrData->Flags | 0x20;
+
+	return TRUE;
+}
+
+VOID fnCreateThreadNotify(HANDLE ProcessId, HANDLE ThreadId, BOOLEAN CreateInfo)
+{
+	PEPROCESS eprocess = NULL;
+	PETHREAD ethread = NULL;
+	UCHAR* pWin32Address = NULL;
+
+	PsLookupProcessByProcessId(ProcessId, &eprocess);
+	PsLookupThreadByThreadId(ThreadId, &ethread);
+
+	if (CreateInfo)
+	{
+		DbgPrint("[TEST] 线程TID: %1d | 所属进程名: %s | 进程PID: %1d \n", ThreadId, PsGetProcessImageFileName(eprocess), PsGetProcessId(eprocess));
+	}
+	if (eprocess)
+		ObDereferenceObject(eprocess);
+	if (ethread)
+		ObDereferenceObject(ethread);
+}
+VOID UnDriver(PDRIVER_OBJECT driver)
+{
+	NTSTATUS status;
+
+	// 注销进程回调
+	status = PsRemoveCreateThreadNotifyRoutine(fnCreateThreadNotify);
+}
+
+NTSTATUS DriverEntry(IN PDRIVER_OBJECT Driver, PUNICODE_STRING RegistryPath)
+{
+	NTSTATUS status;
+
+	DbgPrint("hello TEST \n");
+
+	// 绕过签名检查
+	// LINKER_FLAGS=/INTEGRITYCHECK
+	BypassCheckSign(Driver);
+
+	// 创建线程回调
+	// 参数1: 新线程ProcessID
+	// 参数2: 新线程ThreadID
+	// 参数3: 线程创建/退出标志
+	status = PsSetCreateThreadNotifyRoutine(fnCreateThreadNotify);
+	if (!NT_SUCCESS(status))
+	{
+		DbgPrint("创建线程回调错误");
+	}
+
+	Driver->DriverUnload = UnDriver;
+	return STATUS_SUCCESS;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 #include<ntifs.h>//ntifs.h包含ntddk.h，ntddk.h包含wdm.h
 NTKERNELAPI PCHAR PsGetProcessImageFileName(PEPROCESS Process);//获取指定进程对象的映像文件名
 NTKERNELAPI NTSTATUS PsLookupProcessByProcessId(HANDLE ProcessId, PEPROCESS* Process);//通过PID获取进程对象
@@ -87,7 +221,7 @@ BOOLEAN BypassCheckSign(PDRIVER_OBJECT pDriverObject)
 #endif
 	PKLDR_DATA_TABLE_ENTRY pLdrData = (PKLDR_DATA_TABLE_ENTRY)pDriverObject->DriverSection;
 	pLdrData->Flags = pLdrData->Flags | 0x20;
-    return TRUE;
+	return TRUE;
 }
 
 NTSTATUS DriverEntry(PDRIVER_OBJECT pDriverObject, PUNICODE_STRING pRegistryPath)
@@ -108,15 +242,4 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT pDriverObject, PUNICODE_STRING pRegistryPath
 	// 返回成功状态
 	return STATUS_SUCCESS;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+*/
