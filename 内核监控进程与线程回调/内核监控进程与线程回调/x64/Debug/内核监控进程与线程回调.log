@@ -1,0 +1,8 @@
+﻿  Building '内核监控进程与线程回调' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  demo.c
+  内核监控进程与线程回调.vcxproj -> D:\software\VS2022\CODING\DriveQuest\内核监控进程与线程回调\内核监控进程与线程回调\x64\Debug\内核监控进程与线程回调.sys
+  Done Adding Additional Store
+  Successfully signed: D:\software\VS2022\CODING\DriveQuest\\\x64\Debug\.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
