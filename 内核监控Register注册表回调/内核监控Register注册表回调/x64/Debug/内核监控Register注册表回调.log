@@ -1,0 +1,14 @@
+﻿  Building '内核监控Register注册表回调' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  demo.c
+D:\software\VS2022\CODING\DriveQuest\内核监控Register注册表回调\内核监控Register注册表回调\demo.c(42,25): warning C4305: “类型强制转换”: 从“PVOID”到“REG_NOTIFY_CLASS”截断
+D:\software\VS2022\CODING\DriveQuest\内核监控Register注册表回调\内核监控Register注册表回调\demo.c(45,26): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+D:\software\VS2022\CODING\DriveQuest\内核监控Register注册表回调\内核监控Register注册表回调\demo.c(38,32): warning C4100: “CallbackContext”: 未引用的形参
+D:\software\VS2022\CODING\DriveQuest\内核监控Register注册表回调\内核监控Register注册表回调\demo.c(103,30): warning C4100: “driver”: 未引用的形参
+D:\software\VS2022\CODING\DriveQuest\内核监控Register注册表回调\内核监控Register注册表回调\demo.c(120,12): warning C4047: “=”:“PDRIVER_OBJECT”与“void (__cdecl *)(PDRIVER_OBJECT)”的间接级别不同
+D:\software\VS2022\CODING\DriveQuest\内核监控Register注册表回调\内核监控Register注册表回调\demo.c(112,61): warning C4100: “registryPath”: 未引用的形参
+  内核监控Register注册表回调.vcxproj -> D:\software\VS2022\CODING\DriveQuest\内核监控Register注册表回调\内核监控Register注册表回调\x64\Debug\内核监控Register注册表回调.sys
+  Done Adding Additional Store
+  Successfully signed: D:\software\VS2022\CODING\DriveQuest\Register\Register\x64\Debug\Register.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
