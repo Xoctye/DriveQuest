@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "检测远程线程注入", "检测远程线程注入.vcxproj", "{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "R3", "..\R3\R3.vcxproj", "{1E77A85A-D471-4C64-A735-CED678EBFF06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Debug|ARM64.Build.0 = Debug|ARM64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Debug|x64.ActiveCfg = Debug|x64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Debug|x64.Build.0 = Debug|x64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Debug|x64.Deploy.0 = Debug|x64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Release|ARM64.ActiveCfg = Release|ARM64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Release|ARM64.Build.0 = Release|ARM64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Release|ARM64.Deploy.0 = Release|ARM64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Release|x64.ActiveCfg = Release|x64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Release|x64.Build.0 = Release|x64
+		{E10B0DDD-F4A2-B25C-D94B-A953B89FD070}.Release|x64.Deploy.0 = Release|x64
+		{1E77A85A-D471-4C64-A735-CED678EBFF06}.Debug|ARM64.ActiveCfg = Debug|x64
+		{1E77A85A-D471-4C64-A735-CED678EBFF06}.Debug|ARM64.Build.0 = Debug|x64
+		{1E77A85A-D471-4C64-A735-CED678EBFF06}.Debug|x64.ActiveCfg = Debug|x64
+		{1E77A85A-D471-4C64-A735-CED678EBFF06}.Debug|x64.Build.0 = Debug|x64
+		{1E77A85A-D471-4C64-A735-CED678EBFF06}.Release|ARM64.ActiveCfg = Release|x64
+		{1E77A85A-D471-4C64-A735-CED678EBFF06}.Release|ARM64.Build.0 = Release|x64
+		{1E77A85A-D471-4C64-A735-CED678EBFF06}.Release|x64.ActiveCfg = Release|x64
+		{1E77A85A-D471-4C64-A735-CED678EBFF06}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0137E997-3CF8-4719-971C-E962B3F6F6AB}
+	EndGlobalSection
+EndGlobal

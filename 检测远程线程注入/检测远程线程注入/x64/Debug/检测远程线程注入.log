@@ -1,0 +1,8 @@
+﻿  Building '检测远程线程注入' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  demo.c
+  检测远程线程注入.vcxproj -> D:\software\VS2022\CODING\DriveQuest\检测远程线程注入\检测远程线程注入\x64\Debug\检测远程线程注入.sys
+  Done Adding Additional Store
+  Successfully signed: D:\software\VS2022\CODING\DriveQuest\\\x64\Debug\.sys
+  
+  Inf2Cat task was skipped as there were no inf files to process
+  
