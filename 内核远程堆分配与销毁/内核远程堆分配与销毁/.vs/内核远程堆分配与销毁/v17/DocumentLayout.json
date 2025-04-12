@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1\\\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E41348B4-C9C9-B725-DBDA-25225F717BED}|\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1.vcxproj|D:\\software\\VS2022\\CODING\\DriveQuest\\\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1\\\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1\\demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E41348B4-C9C9-B725-DBDA-25225F717BED}|\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1.vcxproj|solutionrelative:demo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "demo.c",
+              "DocumentMoniker": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1\\\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1\\demo.c",
+              "RelativeDocumentMoniker": "demo.c",
+              "ToolTip": "D:\\software\\VS2022\\CODING\\DriveQuest\\\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1\\\u5185\u6838\u8FDC\u7A0B\u5806\u5206\u914D\u4E0E\u9500\u6BC1\\demo.c",
+              "RelativeToolTip": "demo.c",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-12T00:53:50.281Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
